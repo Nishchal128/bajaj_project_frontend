@@ -10,7 +10,7 @@ function App() {
   const [filteredData, setFilteredData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const backendUrl = "http://localhost:5000/bfhl";
+  const backendUrl = "https://bajaj-project-backend-yaa7.onrender.com/bfhl";
 
   const handleSubmit = async () => {
     try {
